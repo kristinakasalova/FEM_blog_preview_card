@@ -1,0 +1,93 @@
+/* 
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%) */
+@font-face {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    src: url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+}
+@font-face {
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    src: url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+}
+
+html {
+    background-color: hsl(47, 88%, 63%);
+}
+body {
+    padding-top: 155px;
+}
+
+
+
+.card {
+    border-style: solid ;
+    width: 327px;
+    height: fit-content;
+    margin: auto;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 8px 8px 1px 3px;
+    padding: 24px;
+    background-color: white;
+}
+
+.hero img {
+    border-radius: 10px;
+    height: 200px;
+    width: fit-content;
+    object-fit: cover;
+}
+
+.text {
+    margin: 24px 0;
+    font-family: "Figtree",sans-serif;
+}
+.tag {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-weight: ExtraBold;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 12px 0;
+}
+
+.content {
+    color: grey;
+    font-size: 14;
+}
+
+.author  {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.authorImg {
+    max-height: 38px;
+    max-width: 38px;
+}
+.author p {
+    color: black;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: ExtraBold;
+
+}
