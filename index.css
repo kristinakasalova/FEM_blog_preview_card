@@ -38,6 +38,9 @@ body {
     padding: 24px;
     background-color: white;
 }
+.hero {
+    width: 384px;
+}
 
 .hero img {
     border-radius: 10px;
@@ -47,7 +50,7 @@ body {
 }
 
 .text {
-    margin: 24px 0;
+    margin-top: 24px;
     font-family: "Figtree",sans-serif;
 }
 .tag {
@@ -66,6 +69,10 @@ h1 {
     font-size: 20px;
     line-height: 150%;
     margin: 12px 0;
+}
+
+h1:hover {
+    color:  hsl(47, 88%, 63%);
 }
 
 .content {
@@ -88,6 +95,38 @@ h1 {
     color: black;
     font-size: 14px;
     display: inline-block;
-    font-weight: ExtraBold;
+    font-weight: bold;
+    padding: 10px;
 
+}
+
+@media only screen and (min-width: 376px) {
+    body {
+        padding-top: 219px;
+    }
+    
+    
+    
+    .card {
+        border-style: solid ;
+        width: 334px;
+        height: fit-content;
+        margin: auto;
+        border-width: 1px;
+        border-radius: 20px;
+        border-color: black;
+        box-shadow: 8px 8px 1px 3px;
+        padding: 24px;
+        background-color: white;
+    }
+    .hero {
+        width: 279px;
+    }
+    .hero img {
+        border-radius: 10px;
+        height: 200px;
+        width: fit-content;
+        object-fit: cover;
+
+    }
 }
